@@ -1,0 +1,111 @@
+.blur{
+	animation-name: blur;
+	animation-duration:8s;
+	animation-fill-mode: forwards;
+
+}
+
+.blur2{
+	animation-name: blur;
+	animation-duration:10s;
+	animation-fill-mode: forwards;
+
+}
+
+.blur3{
+	animation-name: wow;
+	animation-duration:8s;
+	animation-fill-mode: forwards;
+
+}
+
+.blur-container{position: absolute;
+	top:10%;
+	left:calc(50% - 271.77px / 2)}
+
+@keyframes blur{
+	0%{
+		filter: blur(100px)
+
+	}
+
+	100%{
+		filter: blur(0px);
+
+	}
+
+}
+
+
+.blur-container2{position: absolute;
+	bottom:10%;
+	left:calc(50% - 234.71px / 2)}
+
+@keyframes blur{
+	0%{
+		filter: blur(100px)
+
+	}
+
+	100%{
+		filter: blur(0px);
+
+	}
+
+}
+
+.blur-container3{position: absolute;
+	top:5%;
+	left:3%}
+
+@keyframes blur2{
+	0%{
+		filter: blur(100px)
+
+	}
+
+	100%{
+		filter: blur(0px);
+
+	}
+
+}
+
+.blur-container4{position: absolute;
+	top:5%;
+	right: 3%}
+
+@keyframes blur2{
+	0%{
+		filter: blur(100px)
+
+	}
+
+	100%{
+		filter: blur(0px);
+
+	}
+
+}
+
+
+.blur-container5{position: absolute;
+	bottom:10%;
+	left:calc(50% - 393.39px / 2)}
+
+@keyframes wow{
+	0%{
+		filter: blur(0px)
+
+	}
+
+	45%{
+		filter: blur(0px);
+	}	
+
+	100%{
+		filter: blur(100px);	
+
+	}
+
+}
